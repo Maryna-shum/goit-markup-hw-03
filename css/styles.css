@@ -1,7 +1,7 @@
 /*font-family: "Raleway", sans-serif;
  font-family: "Roboto", sans-serif; */
 
- body {
+  body { 
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
@@ -11,9 +11,38 @@
     text-decoration: none;
   }
 
+  h1, h2, h3 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
   ul,
   ol {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .container {
+    max-width: 1158px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .logo-first {
@@ -97,9 +126,19 @@
     background-color: #404BBF;
   }
   
-  .headline {
-    text-align: center;
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip:rect(0 0 0 0);
+    overflow: hidden;
   }
+
 
   .direction-item-title {
     font-weight: 500;
@@ -189,3 +228,4 @@
     color: #F4F4FD;
     letter-spacing: 0.02em;
   }
+  
